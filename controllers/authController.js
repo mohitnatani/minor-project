@@ -48,7 +48,7 @@ const login = async (req, res)=>{
 const logout = async (req, res) =>{
     res.clearCookie('jwt');
     //res.send({status:'success', msg:"Logged out successfully"});
-    res.redirect('/sydney');
+    res.redirect('/');
 }
 
 module.exports = {
