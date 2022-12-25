@@ -1,5 +1,5 @@
 function goto(url){
-    window.location.href=`http://localhost:3000/listing/${url}`;
+    window.location.href=`/listing/${url}`;
 }
 
 function decrement(id){
