@@ -1,0 +1,25 @@
+body, html{
+    background-color: #F8F8F6;
+}
+.listing-property{
+    cursor:pointer;
+}
+.decrement, .increment{
+    border-radius: 19px;
+    background-color: white;
+    border: 1px solid black;
+}
+.listing-container{
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+.listing-image{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.rental-price{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+}
